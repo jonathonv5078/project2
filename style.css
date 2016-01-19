@@ -1,3 +1,26 @@
-h1{
+h1 {
     text-align: center;
+}
+
+.header {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#grad1 {
+  background: radial-gradient(circle, red, yellow, green);
+}
+
+#header {
+ text-align:center;
 }

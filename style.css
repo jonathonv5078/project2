@@ -26,11 +26,11 @@ h1 {
  text-align:center;
 }
 
-p {
+#summary {
   text-align: center;
   line-height: 130%;
-  width: 300px;
-  height: 500px;
-  margin-left: 243px;
+  width: 500px;
+  height: 300px;
+  margin-left: 700px;
   position: relative;
 }

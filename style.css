@@ -1,12 +1,28 @@
-#header{
-    text-align: center;
-}    
-    span.stretch {
-    display:inline-block;
-    -webkit-transform:scale(2,1); /* Safari and Chrome */
-    -moz-transform:scale(2,1); /* Firefox */
-    -ms-transform:scale(2,1); /* IE 9 */
-    -o-transform:scale(2,1); /* Opera */
-    transform:scale(2,1); /* W3C */
 
+h1 {
+    text-align: center;
 }
+
+.header {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#grad1 {
+  background: radial-gradient(circle, red, yellow, green);
+}
+
+#header {
+ text-align:center;
+}
+

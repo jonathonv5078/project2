@@ -62,11 +62,14 @@ video {
 }
 
 #release{
-  margin-top:-150px;
+  margin-top:50px;
   margin-left: 100px;
-  transition: (2s);
+ 
   
 }
+
+
+
 video:hover{
   opacity: 1;
  transform: scale(2);

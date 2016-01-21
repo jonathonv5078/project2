@@ -1,8 +1,9 @@
 
 h1 {
     text-align: center;
+    color:white;
+    
 }
-
 .header {
   height: 250px;
   width: 250px;
@@ -18,19 +19,54 @@ h1 {
   animation-play-state: running;
 }
 
-#grad1 {
-  background: radial-gradient(circle, red, yellow, green);
+body {
+  background: linear-gradient(black,silver);
+  width: 100%;
+  height:100%;
 }
 
 #header {
  text-align:center;
+ 
 }
 
-#summary {
+.summary {
   text-align: center;
   line-height: 130%;
-  width: 500px;
+  width: 30%;
   height: 300px;
-  margin-left: 700px;
   position: relative;
+  margin: auto;
+  color: white;
+}
+
+#signup {
+  margin-left: 1500px;
+  position: static;
+  margin-top: 270px;
+   border-radius: 25px;
+  border: 2px solid black;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;   
+box-shadow: 17px 2px 5px 0px rgba(0,0,0,0.75);
+
+  
+}
+
+html {
+  height:100%;
+}
+
+video {
+  margin-left:550px;
+  margin-top: -900px;
+  height: 480px;
+  width: 800px;
+}
+
+#release{
+  margin-top:-10px;
+  margin-left: 40px;
+  transform: rotateZ(30deg);
 }
